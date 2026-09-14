@@ -1,16 +1,22 @@
-## Hi there 👋
+## 你好，我是许伟志 👋
 
-<!--
-**ConnorXu-bit/ConnorXu-bit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+数学老师转行做后端开发，目前在北京找 **Python 后端 / AI Agent 开发** 的岗位。
 
-Here are some ideas to get you started:
+两年多的教学经历留给我两样东西：把复杂问题拆成可执行步骤的习惯，和把一件事讲到别人能听懂的能力。现在我把它们用在写代码上。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 技能
+
+`Python` · `FastAPI` · `MySQL` · `Redis` · `SQLAlchemy 2.0` · `Alembic` · `Docker` · `pytest` · `GitHub Actions`
+
+### 项目
+
+**[fastapi-user-system](https://github.com/ConnorXu-bit/fastapi-user-system)**
+基于 FastAPI 的异步用户认证与授权系统。双 JWT Token 刷新轮换 + Redis 黑名单实现登出即时失效，五表 RBAC 权限模型按请求实时校验权限，Docker Compose 一键启动，37 个 pytest 用例。
+
+**[shortlink-agent](https://github.com/ConnorXu-bit/shortlink-agent)**
+基于 DeepSeek Function Calling 的对话式短链 Agent。模型只负责决策、程序负责执行；支持多轮工具调用循环、Redis 短码原子写入与 SCAN 模糊查询，22 个 pytest 用例。
+
+### 联系
+
+- 邮箱：weizhix@hotmail.com
+- GitHub：[@ConnorXu-bit](https://github.com/ConnorXu-bit)
