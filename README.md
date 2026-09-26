@@ -6,7 +6,7 @@
 
 ### 技能
 
-`Python` · `FastAPI` · `MySQL` · `Redis` · `SQLAlchemy 2.0` · `Alembic` · `Docker` · `pytest` · `GitHub Actions`
+`Python` · `FastAPI` · `MySQL` · `Redis` · `SQLAlchemy 2.0` · `Alembic` · `Docker` · `pytest` · `GitHub Actions` · `RAG（向量检索 / BM25 / RRF 融合）`
 
 ### 项目
 
@@ -15,6 +15,9 @@
 
 **[shortlink-agent](https://github.com/ConnorXu-bit/shortlink-agent)**
 基于 DeepSeek Function Calling 的对话式短链 Agent。模型只负责决策、程序负责执行；支持多轮工具调用循环、Redis 短码原子写入与 SCAN 模糊查询，22 个 pytest 用例。
+
+**[rag-kb-qa](https://github.com/ConnorXu-bit/rag-kb-qa)**
+RAG 知识库问答服务。文档按标题路径切分并保留重叠，向量化后入库；提问走向量 + BM25 混合检索、用 RRF 按名次融合，命中低于阈值时不调用模型、直接返回「未找到相关内容」以抑制幻觉。50 个 pytest 通过构造器注入假 Embedder 与假 LLM，不联网即可跑通全链路。
 
 ### 联系
 
